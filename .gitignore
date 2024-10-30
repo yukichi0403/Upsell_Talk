@@ -1,0 +1,21 @@
+# 環境変数と機密情報
+.env
+.streamlit/secrets.toml
+
+# サンプルファイルは追跡する
+!.env.example
+!.streamlit/secrets.example.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
